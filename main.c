@@ -38,7 +38,7 @@ double distanceBetweenTwoPoints(cartesianPoint pointA, cartesianPoint pointB) {
     }
 
     double totalDistance;
-    totalDistance = sqrtf(pow(xDistantce, 2) + pow(yDistantce, 2));
+    totalDistance = sqrt(pow(xDistantce, 2) + pow(yDistantce, 2));
 
     return totalDistance;
 }
